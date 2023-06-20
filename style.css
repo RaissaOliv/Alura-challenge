@@ -1,0 +1,57 @@
+button:focus,
+    input:focus {
+        outline: none;
+        
+}
+
+header {
+    background-color: black;
+    position: absolute;
+    height: 58px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    flex: auto;
+    align-items: center;
+    display: flex;
+    
+}
+
+.linksHeader {
+    font-family: 'Inter';
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 10px;
+}
+
+#logoHeader {
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+.PesquisaHeader {
+    margin-left: auto; 
+    margin-right: 15px; 
+  }
+
+.inputHeader {
+    border-radius: 0px;
+    border-color: transparent;
+    font-family: 'Inter';
+    height: 30px;
+    padding: 2px;
+    padding-left: 8px;
+}
+
+.buttonHeader {
+    font-family: 'Inter';
+    border-color: white;
+    border-width: 1px;
+    background-color: transparent;
+    color: #FFFFFF;
+    padding: 10px;
+    margin-left: 10px;
+    align-content: center;
+}
+
