@@ -4,9 +4,21 @@ button:focus,
         
 }
 
+* {
+    box-sizing: border-box;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+
 header {
     background-color: black;
-    position: absolute;
     height: 58px;
     left: 0px;
     right: 0px;
@@ -39,8 +51,8 @@ header {
     border-radius: 0px;
     border-color: transparent;
     font-family: 'Inter';
-    height: 30px;
     padding: 2px;
+    height: 35px;
     padding-left: 8px;
 }
 
@@ -52,6 +64,44 @@ header {
     color: #FFFFFF;
     padding: 10px;
     margin-left: 10px;
-    align-content: center;
 }
+
+.carrosselFotos {
+    width: 100%;
+}
+
+#categorias {
+    display: flex;
+    justify-content: center;
+}
+
+.categoriasEstilo {
+    align-items: center;
+}
+
+.categoriasEstilo img {
+     vertical-align: middle;
+     margin-left: 15px;
+}
+.categoriasTexto{
+    background-color: black;
+    color: white;
+    font-family: 'Inter';
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+    margin: 0%;
+    margin-left: 15px;
+
+}
+
+.tituloProdutos {
+    text-align: center;
+    font-family: 'Inter';
+    margin-top: 5%;
+    font-size: 32px;
+}
+
+
+  
 
