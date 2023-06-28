@@ -1,0 +1,47 @@
+.colunaProdutos {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.imagemProdutos {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.designProdutos {
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 300px;
+    display: inline-block;
+    margin: 1%;
+}
+
+.designProdutos p, button {
+    font-family: 'Inter';
+    margin-left: 4%;
+}
+
+.nomeEpreco {
+    font-weight: bold;
+}
+
+.descricaoProdutos {
+    font-size: 13px;
+font-family: 'Inter';
+line-height: 20px; 
+}
+
+.botaoProdutos {
+    background-color: #9353FF;
+    border-radius: 0%;
+    color: white;
+    border-color: transparent;
+    padding: 2%;
+    margin-bottom: 4%;
+}

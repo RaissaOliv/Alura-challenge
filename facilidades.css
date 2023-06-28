@@ -1,0 +1,47 @@
+#facilidades {
+    background-color: black;
+    
+}
+
+#facilidades p {
+    font-family: 'Inter';
+}
+
+#titulo {
+    color: white;
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Inter';
+    font-weight: 500; 
+    padding-top: 3%;
+}
+
+.colunaFacilidades {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 1%;
+}
+
+.colunaFacilidades img {
+    margin-right: 2%;
+}
+
+
+
+.detalhesFacilidades p {
+    font-family: 'Inter';
+
+}
+.subtituloFacilidades {
+    color: yellow;
+}
+
+.descricaoFacilidades {
+    color: #FFF;
+    margin-top: 1%;
+}
