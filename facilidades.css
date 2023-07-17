@@ -18,19 +18,16 @@
 }
 
 .colunaFacilidades {
-    display: flex;
     align-content: center;
     align-items: center;
     display: flex;
     justify-content: center; 
-    align-items: center; 
     margin: 1%;
 }
 
 .colunaFacilidades img {
     margin-right: 2%;
 }
-
 
 
 .detalhesFacilidades p {
@@ -44,4 +41,5 @@
 .descricaoFacilidades {
     color: #FFF;
     margin-top: 1%;
+    
 }

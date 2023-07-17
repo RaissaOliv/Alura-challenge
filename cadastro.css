@@ -1,0 +1,59 @@
+#cadastro {
+   
+    background-color: white;
+    border-color: black;
+    border-width: medium;
+  border-style: solid;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+    
+}
+
+#cadastroContainer {
+    background-color: #ffffff;
+    padding: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+   
+}
+
+#tituloCadastro {
+    color: #212529;
+text-align: center;
+/* Basic Typography/Paragraph Lead */
+font-family: 'Inter';
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; 
+padding: 2%;
+}
+
+#inputContainer {
+    flex-direction: row;
+    margin-bottom: 4%;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente (opcional) */
+    
+}
+
+#inputCadastro {
+    border-color: black;
+    border-style: thin;
+    width: 50%;
+    padding: 1%;
+    margin: 0%;
+   
+}
+
+#enviarCadastro {
+    border: 1px solid #9353FF;
+    background: #9353FF; 
+    color: white;
+    padding: 1%;
+    margin: 0%;
+    width: 8%;
+}
